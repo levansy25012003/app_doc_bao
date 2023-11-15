@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <ImageView
+            android:id="@+id/imgAnhTruyen"
+            android:src="@drawable/a"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ImageView>
+        <TextView
+            android:id="@+id/txvTenChap"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#CC1A1C1B"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Messi"
+            android:textSize="10dp"
+            ></TextView>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/txvTenTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:gravity="center"
+        android:text="Tên truyện tranh"
+        android:textSize="14dp"
+        android:textColor="#000"></TextView>
+</LinearLayout>
